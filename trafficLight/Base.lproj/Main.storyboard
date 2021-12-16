@@ -28,31 +28,33 @@
                                 </buttonConfiguration>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="fcC-ZH-C84">
-                                <rect key="frame" x="132" y="69" width="164" height="488"/>
+                                <rect key="frame" x="128.33333333333331" y="69" width="171.33333333333331" height="545.66666666666663"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0rj-67-pXM">
-                                        <rect key="frame" x="0.0" y="0.0" width="164" height="152"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="171.33333333333334" height="171.33333333333334"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSb-Jb-lFo">
-                                        <rect key="frame" x="0.0" y="168" width="164" height="152"/>
+                                        <rect key="frame" x="0.0" y="187.33333333333331" width="171.33333333333334" height="171"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26O-Sx-orS">
-                                        <rect key="frame" x="0.0" y="336" width="164" height="152"/>
+                                        <rect key="frame" x="0.0" y="374.33333333333331" width="171.33333333333334" height="171.33333333333331"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" secondItem="fcC-ZH-C84" secondAttribute="width" multiplier="3:1" constant="32" id="KM6-jW-xdN"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
+                            <constraint firstItem="fcC-ZH-C84" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="LrX-fT-yuq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lli-0E-f6u" secondAttribute="bottom" constant="20" id="P9i-mk-Qtx"/>
                             <constraint firstItem="fcC-ZH-C84" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RQA-xK-CUY"/>
-                            <constraint firstItem="fcC-ZH-C84" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="VjO-iy-U1G"/>
-                            <constraint firstAttribute="bottom" secondItem="fcC-ZH-C84" secondAttribute="bottom" constant="369" id="Z2r-CN-sv4"/>
                             <constraint firstItem="fcC-ZH-C84" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="lh3-x4-VpI"/>
                             <constraint firstItem="lli-0E-f6u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHI-of-zie"/>
                             <constraint firstItem="lli-0E-f6u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="znB-tW-aqP"/>
