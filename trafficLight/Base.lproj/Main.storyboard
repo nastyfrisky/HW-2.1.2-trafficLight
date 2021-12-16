@@ -26,6 +26,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onButtonTap" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Zk-hX-t15"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="fcC-ZH-C84">
                                 <rect key="frame" x="128.33333333333331" y="69" width="171.33333333333331" height="545.66666666666663"/>
@@ -60,6 +63,12 @@
                             <constraint firstItem="lli-0E-f6u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="znB-tW-aqP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="lli-0E-f6u" id="CLb-zw-ZgQ"/>
+                        <outlet property="greenLightView" destination="26O-Sx-orS" id="CPC-SK-Uvh"/>
+                        <outlet property="redLightView" destination="0rj-67-pXM" id="SFG-i2-bk6"/>
+                        <outlet property="yellowLightView" destination="ZSb-Jb-lFo" id="m8h-7f-Gb6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
